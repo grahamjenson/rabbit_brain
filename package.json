@@ -1,0 +1,32 @@
+{
+  "name": "rabbit_brain",
+  "description": "RabbitMQ based Neural Network for distributed supervised learning",
+  "version": "0.0.1",
+  "author": {
+      "name": "Graham Jenson",
+      "email": "grahamjenson@maori.geek.nz"
+  },
+  "main": "src/alchemy.coffee",
+  "engines": {
+      "node": ">= 0.10.33"
+  },
+  "dependencies": {
+      "coffee-script": "1.9.2",
+      "amqplib": "0.3.2",
+      "bluebird": "2.9.27",
+      "lodash": "3.9.3",
+      "node-etcd": "4.1.0"
+  },
+  "devDependencies": {
+      "mocha": "1.18.2",
+      "chai": "1.9.1",
+      "sinon": "1.12.2",
+      "chai-as-promised": "4.1.1",
+      "q-io": "1.11.6",
+      "throat": "1.0.0"
+  },
+  "scripts": {
+      "test": "mocha"
+  },
+  "private": true
+}
